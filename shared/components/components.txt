@@ -1,0 +1,3 @@
+(root)/shared/components
+Esta pasta armazena os arquivos de componentes compartilhados entre artefatos.
+Componentes são elementos de interface projetados para realizar funções específicas.

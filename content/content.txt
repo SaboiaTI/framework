@@ -1,0 +1,2 @@
+(root)/content
+A pasta content serve para armazenar arquivos de conteúdo dos usuários, como imagens, áudio, vídeo, documentos etc.

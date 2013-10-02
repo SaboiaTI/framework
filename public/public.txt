@@ -1,0 +1,2 @@
+(root)/public
+Esta pasta armazena conteúdo e páginas independentes (podendo ser semelhantes aos artefatos) de acesso público, isto é, que podem ser acessados sem autenticação de usuário.

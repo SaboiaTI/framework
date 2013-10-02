@@ -1,0 +1,2 @@
+(root)/shared/libraries
+Esta pasta armazena as bibliotecas compartilhadas, tanto do próprio framework quanto de terceiros.

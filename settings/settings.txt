@@ -1,0 +1,2 @@
+(root)/settings
+Esta pasta armazena arquivos de configuração de ambiente, como dados de acesso a banco (?) e constantes do sistema.

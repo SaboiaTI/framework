@@ -1,0 +1,3 @@
+(root)/shared/data
+Esta pasta armazena arquivos de classes e objetos para manipulação de dados
+Se você procura pelos arquivos de MultiBond, não há nada para você aqui... Eles ficam em uma área compartilhada entre as diversas aplicações. Até logo.

@@ -1,0 +1,2 @@
+(root)/shared/api
+Esta pasta armazena os arquivos de APIs.

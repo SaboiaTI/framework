@@ -1,0 +1,2 @@
+(root)/devtools
+A pasta devtools serve para armazenar ferramentas para apoio ao desenvolvimento de aplicações no framework Saboia Bloop.

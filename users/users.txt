@@ -1,0 +1,2 @@
+(root)/users
+Esta pasta armazena os arquivos de configuração da aplicação feitas por cada usuário como, por exemplo, pesquisa avançada, critérios de ordenação, etc.

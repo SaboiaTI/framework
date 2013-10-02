@@ -1,0 +1,3 @@
+(root)/shared
+Esta pasta armazena arquivos compartilhados pela aplicação.
+São arquivos de estilo, imagens de ícones e bibliotecas de uso comum a um ou mais artefatos da aplicação.

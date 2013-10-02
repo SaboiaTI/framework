@@ -1,0 +1,5 @@
+(root)/modules
+A pasta modules armazena os módulos da aplicação.
+Um módulo é um agrupamento de artefatos (ou submódulos) que compartilham propósitos e funções em comum.
+Um módulo é estabelecido considerando a ótica do usuário.
+Um artefato é uma tela (página aberta em uma aba no browser) com um propósito específico, ou seja, que atende um conjunto particular de necessidades.

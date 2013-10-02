@@ -1,0 +1,2 @@
+(root)/shared/style
+Esta pasta armazena os arquivos de estilo compartilhados, tais como folha de estilo (css) básicos de componentes e ícones de interface.

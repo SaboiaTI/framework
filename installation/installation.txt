@@ -1,0 +1,3 @@
+(root)/installation
+A pasta installation serve para armazenar programas de apoio à instalação quando da distribição da aplicação desenvolvida no framework Saboia Bloop.
+Os programas disponíveis nesta pasta poderão ser removidos após o setup da aplicação em ambiente de produção.

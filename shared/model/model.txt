@@ -1,0 +1,2 @@
+(root)/shared/model
+Esta pasta armazena as classes da camada de modelo de negócio, bem como lógicas de apoio ao modelo de negócio.

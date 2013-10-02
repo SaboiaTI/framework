@@ -1,0 +1,183 @@
+/**
+ * TO-DO: Estilos para tamanhos de telas diferentes: smartphone e tablets
+ */
+/* @media all and (min-width:990px) { wide desktop | old tablet - landscape } */
+/* @media all and (min-width:784px) and (max-width:989px) { old tablet - landscape } */
+/* @media all and (min-width:496px) and (max-width:783px) { smartphone - landscape | old tablet - portrait } */
+/* @media all and (max-width:495px) { smartphone - portrait | smartphone - landscape } */
+
+
+body {
+	/* position:absolute;
+	width:100%;
+	height:100%; */
+	overflow-y:scroll;
+}
+
+/* PAGE CONTAINER - para todos os modelos de página */
+.structure-main-container {
+	display:table;
+	table-layout:fixed;
+	position:absolute;position:relative;
+	top:0;top:-50px;
+	width:100%;
+	padding:50px 7px 0 7px;
+	/* max-width:1024px;
+	margin-left:auto;
+	margin-right:auto; */
+}
+.structure-main-container > * { vertical-align:top; }
+
+
+
+/* COLUNAS - para modelo de página de formulário */
+.structure-column-section {
+	margin-bottom:15px;
+}
+
+
+
+
+/* MENU LATERAL (ESQUERDO) - para modelo de página de lista */
+.structure-side-panel {
+	transition:width .35s, left .35s;
+	-o-transition:width .35s, left .35s;
+	-moz-transition:width .35s, left .35s;
+	-webkit-transition:width .35s, left .35s;
+}
+@media all and (min-width:990px) { /* wide desktop | old tablet - landscape */ 
+	/* elemento comporta-se como uma coluna de largura fixa, nunca deve redimensionar largura */
+	.structure-side-panel,
+	.structure-side-panel.open{
+		display:table-cell;
+		width:140px;
+		padding-top:20px;
+		padding-right:7px;
+	}
+}
+@media all and (min-width:784px) and (max-width:989px) { /* old tablet - landscape */
+	/* elemento comporta-se como uma coluna de largura fixa, mostrado ou ocultado a partir de um controle como um menu */
+	.structure-side-panel{
+		display:inline-block;
+		position:absolute;
+		z-index:100;
+		width:250px;
+		top:50px;
+		left:-260px;
+	}
+	.structure-side-panel.open{ left:0px; }
+}
+@media all and (min-width:496px) and (max-width:783px) { /* smartphone - landscape | old tablet - portrait */ 
+	/* elemento comporta-se como uma coluna de largura fixa, mostrado ou ocultado a partir de um controle como um menu */
+	.structure-side-panel{
+		display:inline-block;
+		position:absolute;
+		z-index:100;
+		width:250px;
+		top:50px;
+		left:-260px;
+	}
+	.structure-side-panel.open{ left:0px; }
+}
+@media all and (max-width:495px) { /* smartphone - portrait | smartphone - landscape */ 
+	/* elemento comporta-se como uma coluna de largura 100%, mostrado ou ocultado a partir de um controle como um menu */
+	.structure-side-panel{
+		display:inline-block;
+		position:absolute;
+		z-index:100;
+		width:100%;
+		top:50px;
+		left:-105%;
+	}
+	.structure-side-panel.open{ left:0px; }
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:990px) {
+	/* wide desktop | old tablet - landscape */
+	/* PAINÉIS - para modelo de página de lista */
+	
+
+	/* COLUNAS - para modelo de página de formulário */
+	/* conteúdo lateral adicional - elemento comporta-se como uma coluna de largura fixa */
+	.structure-side-column{
+		width:280px;
+		/*float:right;*/
+		position:absolute;
+		right:10px;
+		top:50px;
+		padding-bottom:50px;
+	}
+	.structure-main-column{
+		margin-right:300px;
+		padding-bottom:50px;
+	}
+}
+
+
+/* @media all and (min-width:784px) and (max-width:989px) */
+@media all and (max-width:989px) {
+	/* old tablet - landscape */
+	/* PAINÉIS - para modelo de página de lista */
+	
+
+	/* COLUNAS - para modelo de página de formulário */
+	/* conteúdo lateral adicional - largura 100%, após o conteúdo principal */
+	.structure-side-column{
+		width:100%;
+		/*float:none;*/
+		padding-bottom:50px;
+	}
+	.structure-main-column{
+		margin-right:0;
+		padding-bottom:50px;
+	}
+}
+
+/* PAINÉIS - para modelo de página de lista */
+.structure-main-panel {
+	/*display:table-cell;*/
+	position:relative;
+	z-index:10;
+	background-color:#E4E4E4;
+	border:1px solid #EBEBEB;
+	-webkit-box-shadow:5px 0 15px -5px rgba(0,0,0,0.5);
+	   -moz-box-shadow:5px 0 15px -5px rgba(0,0,0,0.5);
+			box-shadow:5px 0 15px -5px rgba(0,0,0,0.5);
+	/*
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	   -moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+			box-shadow:0 0 10px rgba(0,0,0,0.5);
+	*/
+	overflow:hidden; /* apenas para corrigir layout da sombra do item selecionado, para que não invada os outros boxes */
+}
+@media all and (min-width:990px) { /* wide desktop | old tablet - landscape */ 
+	
+}
+@media all and (min-width:784px) and (max-width:989px) { /* old tablet - landscape */ 
+	
+}
+@media all and (min-width:496px) and (max-width:783px) { /* smartphone - landscape | old tablet - portrait */ 
+	border:1px solid #EBEBEB;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+			box-shadow:none;
+}
+@media all and (max-width:495px) { /* smartphone - portrait | smartphone - landscape */ 
+	
+}
+
+
+
+.structure-secondary-panel {
+	display:table-cell;
+	padding-top:20px;
+	width:40%;
+}
+
